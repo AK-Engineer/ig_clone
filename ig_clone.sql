@@ -8,11 +8,6 @@ CREATE TABLE users(
 	created_at TIMESTAMP DEFAULT NOW()
 );
 
---Testing insert
--- INSERT INTO users (username) VALUES 
--- ('Blue'),
--- ('Charlie'),
--- ('Colt');
 
 CREATE TABLE photos (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
